@@ -18,7 +18,7 @@
 - 用户名：通过环境变量 `DB_USERNAME` 配置，默认 `root`
 - 密码：通过环境变量 `DB_PASSWORD` 配置
 
-## 组员拉取后如何运行
+## 拉取后如何运行
 
 ### 1. 准备 MySQL 数据库
 
@@ -134,9 +134,3 @@ http://127.0.0.1:5173
    - `forum_post_like`
 4. 右键 `Diagrams` -> `Show Visualization`。
 
-## 作业答辩建议
-
-- 先讲需求边界，再讲 JWT 登录和角色权限
-- 再讲 ER 关系、主外键和论坛扩展表
-- 然后演示活动创建、报名、签到、论坛讨论、热度榜、往期活动
-- 最后展示 DataGrip ER 图和 `sql/04_queries.sql` 中的典型 SQL
